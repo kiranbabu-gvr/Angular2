@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular2';
+  loadedFeature = 'receipe';
+  onNavigate(feature: string){
+    this.loadedFeature=feature
+  }
 }
